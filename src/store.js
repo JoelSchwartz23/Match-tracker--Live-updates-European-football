@@ -5,7 +5,7 @@ import router from './router';
 import { match } from 'minimatch';
 
 let footballapi = axios.create({
-  baseURL: "//api.football-data.org/v2/competitions/CL/matches"
+  baseURL: "http://api.football-data.org/v2/competitions/"
 })
 Vue.use(Vuex)
 
